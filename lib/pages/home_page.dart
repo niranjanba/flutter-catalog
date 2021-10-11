@@ -6,12 +6,12 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Flutter App"),
+        title: Text(
+          "Catolog App",
+        ),
       ),
       body: Center(
-        child: Container(
-          child: Text("Welcome to Flutter app"),
-        ),
+        child: Text("Welcom to catalog app"),
       ),
       drawer: MyDrawer(),
     );
